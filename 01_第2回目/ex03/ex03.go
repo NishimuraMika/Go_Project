@@ -7,11 +7,10 @@ import (
 	"log"
 )
 
-/** JSONデコード用に構造体定義 */
 type Person struct {
 	Id   int    `json:"id"`
 	Name string `json:"name"`
-	Age  int    `json:"age"`
+	Age  string `json:"age"`
 }
 
 func main() {
