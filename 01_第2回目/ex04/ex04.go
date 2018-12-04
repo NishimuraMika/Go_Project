@@ -26,6 +26,6 @@ func main() {
 	}
 	// デコードしたデータを表示
 	for _, p := range persons {
-		fmt.Printf("%d : %s\n", p.Id, p.Name, p.Age)
+		fmt.Printf("%d : %s\n", p.Id, p.Name)
 	}
 }
